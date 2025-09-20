@@ -1,6 +1,5 @@
 ### Arshiya Shahbazpourtazehkand 100832558
-What system within your project uses a Singleton, and why did you choose this system to adopt the pattern?  
-Do you think this design pattern is beneficial for this purpose? Explain why or why not.  
+#### **What system within your project uses a Singleton, and why did you choose this system to adopt the pattern?  Do you think this design pattern is beneficial for this purpose? Explain why or why not.**  
 the project uses Singletons for GameManager, UIManager and AudioManager (the central systems that need one global,   
 easy-to-access instance). I chose to make these systems singleton because there is only one instance of them required at a time and they provide a 
 persistent global access to their services and streamline the logic.  
